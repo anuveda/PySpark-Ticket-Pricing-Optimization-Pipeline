@@ -47,13 +47,6 @@ Implemented a PySpark-based data processing and machine learning pipeline to ana
 - **Cloud Infrastructure:** Amazon AWS
 - **Machine Learning:** Linear Regression, KMeans Clustering
 
-## Setup and Installation
-1. Clone the repository: `git clone https://github.com/username/repo-name.git`
-2. Navigate to the project directory: `cd repo-name`
-3. Install the required dependencies: `pip install -r requirements.txt`
-4. Configure AWS credentials for cloud infrastructure access.
-5. Run the data processing pipeline: `python main.py`
-
 ## Usage
 1. Load the cleaned dataset using the provided notebooks.
 2. Train the linear regression model and evaluate its performance.
