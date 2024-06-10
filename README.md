@@ -17,27 +17,22 @@ Implemented a PySpark-based data processing and machine learning pipeline to ana
 11. [Contact](#contact)
 
 ## Data Integration and Cleansing
-- Amalgamated and refined data from SeatGeek and Ticketmaster to enhance fan profiling and improve data quality.
-- Scripts: [data_integration.py](scripts/data_integration.py), [data_cleansing.py](scripts/data_cleansing.py)
+- Refined data from SeatGeek and Ticketmaster to enhance fan profiling and improve data quality.
 
 ## Advanced Predictive Analytics
 - Developed a linear regression model to predict ticket prices, enabling dynamic pricing strategies.
 - Model achieved a high R-squared value of 0.9019, indicating strong predictive power.
-- Notebook: [machine_learning.ipynb](notebooks/machine_learning.ipynb)
 
 ## Clustering for Fan Segmentation
 - Utilized KMeans clustering to segment fans based on purchase behavior, ticket prices, and engagement metrics.
 - Informed targeted marketing strategies.
-- Notebook: [clustering.ipynb](notebooks/clustering.ipynb)
 
 ## Real-Time Engagement and Upgrades
 - Implemented strategies to offer real-time seat upgrades and personalized in-app notifications to enhance fan experience and maximize revenue.
-- Script: [real_time_engagement.py](scripts/real_time_engagement.py)
 
 ## Revenue Optimization
 - Compared predicted ticket prices with actual prices to identify potential revenue increases.
 - On average, the model increased revenue by $9.12 per ticket, projecting a significant revenue boost for a sold-out stadium.
-- Notebook: [revenue_optimization.ipynb](notebooks/revenue_optimization.ipynb)
 
 ## Visualization and Reporting
 - Generated visual representations of model performance and cluster analysis to facilitate data-driven decision-making and strategic planning.
@@ -49,16 +44,5 @@ Implemented a PySpark-based data processing and machine learning pipeline to ana
 - **Cloud Infrastructure:** Amazon AWS
 - **Machine Learning:** Linear Regression, KMeans Clustering
 
-## Usage
-1. Navigate to the `notebooks` directory to explore the Jupyter notebooks.
-2. Run the scripts in the `scripts` directory to process data and generate predictions.
-3. Visualize the results using the provided visualization tools.
-
-## Project Structure
-- **data/**: Contains the raw data files.
-- **notebooks/**: Jupyter notebooks for data processing, machine learning, and analysis.
-- **scripts/**: Python scripts for data integration, cleansing, predictive modeling, and clustering.
-
 ## Contact
 For any questions or suggestions, please reach out to Anurag Vedagiri at anurag.vedagiri@gmail.com.
-
