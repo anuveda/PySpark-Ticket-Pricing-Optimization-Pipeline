@@ -11,10 +11,6 @@ Implemented a PySpark-based data processing and machine learning pipeline to ana
 5. [Revenue Optimization](#revenue-optimization)
 6. [Visualization and Reporting](#visualization-and-reporting)
 7. [Technologies Used](#technologies-used)
-8. [Setup and Installation](#setup-and-installation)
-9. [Usage](#usage)
-10. [Project Structure](#project-structure)
-11. [Contact](#contact)
 
 ## Data Integration and Cleansing
 - Integrated and refined over 100,000 records from SeatGeek and Ticketmaster.
@@ -46,9 +42,3 @@ Implemented a PySpark-based data processing and machine learning pipeline to ana
 - **Data Visualization:** Power BI, Tableau
 - **Cloud Infrastructure:** Amazon AWS
 - **Machine Learning:** Linear Regression, KMeans Clustering
-
-## Usage
-1. Load the cleaned dataset using the provided notebook.
-2. Train the linear regression model and evaluate its performance.
-3. Apply KMeans clustering to segment the fan base.
-4. Visualize the results and generate reports.
