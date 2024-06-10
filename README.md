@@ -17,25 +17,28 @@ Implemented a PySpark-based data processing and machine learning pipeline to ana
 11. [Contact](#contact)
 
 ## Data Integration and Cleansing
-- Refined data from SeatGeek and Ticketmaster to enhance fan profiling and improve data quality.
+- Integrated and refined over 100,000 records from SeatGeek and Ticketmaster.
+- Applied data cleaning techniques to handle missing values and normalize features, improving data quality and consistency.
 
 ## Advanced Predictive Analytics
-- Developed a linear regression model to predict ticket prices, enabling dynamic pricing strategies.
-- Model achieved a high R-squared value of 0.9019, indicating strong predictive power.
+- Developed a linear regression model to predict ticket prices, achieving an R-squared value of 0.9019, indicating strong predictive power.
+- Model evaluation metrics: RMSE of 127.58 and MAE of 39.95, demonstrating high accuracy.
 
 ## Clustering for Fan Segmentation
-- Utilized KMeans clustering to segment fans based on purchase behavior, ticket prices, and engagement metrics.
-- Informed targeted marketing strategies.
+- Utilized KMeans clustering to segment fans into 5 clusters based on purchase behavior, ticket prices, and engagement metrics.
+- Identified high-engagement fans with total ticket prices ranging from $1971.5 to $10708.65.
 
 ## Real-Time Engagement and Upgrades
-- Implemented strategies to offer real-time seat upgrades and personalized in-app notifications to enhance fan experience and maximize revenue.
+- Implemented strategies to offer real-time seat upgrades and personalized in-app notifications, enhancing fan experience and maximizing revenue.
+- Real-time seat upgrades for fans with deal scores > 7, resulting in premium seat offers and increased engagement.
 
 ## Revenue Optimization
 - Compared predicted ticket prices with actual prices to identify potential revenue increases.
-- On average, the model increased revenue by $9.12 per ticket, projecting a significant revenue boost for a sold-out stadium.
+- On average, the model increased revenue by $9.12 per ticket, projecting a total additional revenue of $196,500 for a sold-out stadium (21,550 seats).
 
 ## Visualization and Reporting
 - Generated visual representations of model performance and cluster analysis to facilitate data-driven decision-making and strategic planning.
+- Created interactive dashboards and visualizations using Power BI and Tableau to present insights to stakeholders.
 - Notebooks and visualizations included in the project.
 
 ## Technologies Used
@@ -44,5 +47,15 @@ Implemented a PySpark-based data processing and machine learning pipeline to ana
 - **Cloud Infrastructure:** Amazon AWS
 - **Machine Learning:** Linear Regression, KMeans Clustering
 
-## Contact
-For any questions or suggestions, please reach out to Anurag Vedagiri at anurag.vedagiri@gmail.com.
+## Setup and Installation
+1. Clone the repository: `git clone https://github.com/username/repo-name.git`
+2. Navigate to the project directory: `cd repo-name`
+3. Install the required dependencies: `pip install -r requirements.txt`
+4. Configure AWS credentials for cloud infrastructure access.
+5. Run the data processing pipeline: `python main.py`
+
+## Usage
+1. Load the cleaned dataset using the provided notebooks.
+2. Train the linear regression model and evaluate its performance.
+3. Apply KMeans clustering to segment the fan base.
+4. Visualize the results and generate reports.
