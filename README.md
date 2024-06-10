@@ -48,7 +48,7 @@ Implemented a PySpark-based data processing and machine learning pipeline to ana
 - **Machine Learning:** Linear Regression, KMeans Clustering
 
 ## Usage
-1. Load the cleaned dataset using the provided notebooks.
+1. Load the cleaned dataset using the provided notebook.
 2. Train the linear regression model and evaluate its performance.
 3. Apply KMeans clustering to segment the fan base.
 4. Visualize the results and generate reports.
